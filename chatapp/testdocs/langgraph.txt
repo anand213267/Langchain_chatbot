@@ -1,0 +1,18 @@
+LangGraph is an open-source framework from LangChain designed to build and manage AI agent workflows using graph-based structures. It allows developers to define workflows as nodes and edges, making complex agent interactions more structured, scalable and easier to control.
+
+1. Organises AI agent workflows using graph-based architectures
+2. Supports both simple use cases (chatbots) and complex multi-agent systems
+3. Integrates LLMs with external tools, APIs and memory
+4. Enables modular and customizable workflow design
+
+LangChain uses a straightforward step-by-step pipeline where each task follows a fixed sequence from input to output while LangGraph allows flexible workflows with branching and parallel steps, making it better suited for complex, decision-based applications.
+
+Here's a step by step interpretation of the flow:
+
+    1. Start: The process begins with the agent (Assistant) initiating an interaction or task.
+    2. Assistant: This is the central node managing the overall workflow. It controls the movement between tools and sequences based on the current state.
+    3. Enter Write Sequence: If the task requires writing assistance like generating content, the workflow enters a dedicated writing sequence.
+    4. Write Assistant: This specialized module focuses on the writing process. It may loop with tools for refining or editing before completing the sequence.
+    5. Leave Write Sequence: Once the writing task is complete the system exits the write mode.
+    6. Writer Sensitive Tools and Assistant Tools: These nodes provide specialized capabilities. Depending on the state the Assistant routes tasks to tools that enhance writing or perform sensitive operations.
+    7. End: The process concludes once the desired outcome is achieved and all necessary tools have been executed.

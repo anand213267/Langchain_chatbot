@@ -1,0 +1,45 @@
+Artificial Intelligence (AI) is a technology that enables machines and computers to perform tasks that typically require human intelligence. It allows systems to learn from data, recognise patterns, and make decisions to solve complex problems.
+
+1. Simulates human intelligence through learning and reasoning.
+2. Processes large amounts of data to identify patterns and insights.
+3. Continuously improves performance using experience and feedback.
+
+1. Machine Learning (ML)
+
+Machine Learning is a subset of AI that enables systems to learn from data and improve performance without explicit programming.
+
+    Identifies patterns and relationships from data.
+    Improves predictions and decisions through experience.
+    Powers applications like recommendation and prediction systems.
+
+2. Generative AI
+
+Generative AI focuses on creating new content such as text, images, audio, and videos using learned patterns from large datasets
+
+    Generates original content instead of only analyzing data.
+    Learns patterns from massive datasets for content creation.
+    Used in chatbots, image generation, and content writing tools.
+
+3. Natural Language Processing (NLP)
+
+Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language naturally.
+
+    Supports tasks like translation, sentiment analysis, and chatbots.
+    Combines linguistics with computer science techniques.
+    Enables voice assistants such as Siri and Alexa.
+
+4. Expert Systems
+
+Expert Systems simulate human decision-making using predefined rules and domain-specific knowledge.
+
+    Uses if-then rules to solve specialized problems.
+    Mimics reasoning of human experts in specific domains.
+    Commonly applied in healthcare, finance, and diagnostics
+
+    Working
+
+    Data Collection: AI systems rely on large sets of data which could include images, text or sensor readings. For example, teaching an AI to recognize cats, we collect a dataset of labeled cat images.
+    Processing and Learning: It uses algorithms to analyze data and identify patterns. For example, it learns to recognize key features like a cat’s shape, ears or whiskers helping it understand the data.
+    Model Training: The AI model is trained using the data, adjusting its internal settings to improve its predictions. With more data, the model becomes more accurate and better at recognizing new examples like unseen images of cats.
+    Decision Making: Once trained, it can use what it has learned to make decisions. For example, it can find whether a new image contains a cat based on the patterns it learned during training.
+    Feedback and Improvement: It can improve through feedback, especially in methods like reinforcement learning. In this case, the AI receives rewards or penalties, refining its ability to make better decisions over time.

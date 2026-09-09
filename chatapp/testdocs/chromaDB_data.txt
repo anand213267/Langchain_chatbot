@@ -1,0 +1,11 @@
+What is ChromaDB and How it Works
+
+ChromaDB is an open-source vector database designed specifically for AI-powered applications, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) systems. Unlike traditional relational databases like MySQL that store data in structured tables, rows, and columns, ChromaDB specializes in storing and querying mathematical vector representations of data, commonly known as embeddings. This unique capability allows developers to perform semantic search, where data is retrieved based on meaning, context, and concept similarity rather than exact keyword matches.
+
+The Core Architecture of ChromaDB
+
+At its core, ChromaDB operates by taking unstructured text data—such as documents, PDFs, or logs—and passing them through an embedding model like Google Gemini or OpenAI. This model translates the semantic meaning of the text into a dense vector, which is essentially an array of floating-point numbers representing positions in a multi-dimensional space. When documents are ingested into ChromaDB, they are stored inside structures called 'Collections' (which act similarly to tables in a traditional database). Along with the raw text and its vector embedding, ChromaDB allows developers to attach structured metadata dictionaries and unique identifiers to every single document chunk.
+
+Why Developers Choose ChromaDB for RAG Applications
+
+There are several key advantages to using ChromaDB over other vector indexing tools like FAISS. First, ChromaDB offers an out-of-the-box persistent storage mechanism through its PersistentClient, allowing data to be written directly to the local disk or scaled to a cloud server without manual save operations. Second, it provides native support for complex metadata filtering, enabling developers to narrow down their search scope using specific tags like department, tech stack, or file source. Lastly, it is incredibly lightweight, developer-friendly, and integrates seamlessly with popular modern orchestration frameworks such as LangChain and LangGraph.
